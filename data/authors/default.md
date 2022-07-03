@@ -18,4 +18,3 @@ Some of the technologies I like using:
 - React
 - Node.js
 - MongoDB
-- Docker
