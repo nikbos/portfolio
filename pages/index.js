@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <PageSEO
-        title={siteMetadata.title + ' - Developer, Writer'}
+        title={siteMetadata.title + ' - Software Developer'}
         description={siteMetadata.description}
       />
       <div className="pt-6 pb-4 space-y-2 md:space-y-5">
