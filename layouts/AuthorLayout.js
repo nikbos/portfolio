@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { PageSEO } from '@/components/SEO';
+import Link from '@/components/Link';
 
 export default function AuthorLayout({ children, frontMatter }) {
   const { name } = frontMatter;
