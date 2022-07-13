@@ -3,7 +3,6 @@
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
-  - [Screenshots](#camera-screenshots)
   - [Tech Stack](#space_invader-tech-stack)
   - [Features](#dart-features)
   - [Color Reference](#art-color-reference)
@@ -25,7 +24,7 @@
 
 <!-- About the Project -->
 ## :star2: About the Project
-
+Forked from the incredible [Tailwind-Nextjs-Starter-Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) by [Tim Lrx](https://github.com/timlrx).
 <!-- TechStack -->
 ### :space_invader: Tech Stack
 

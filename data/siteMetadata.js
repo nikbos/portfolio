@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'nikolabosnjak93@gmail.com',
   github: 'https://github.com/nikbos',
-  twitter: 'https://twitter.com',
+  linkedin: 'https://www.linkedin.com/in/nikbos',
 
   locale: 'en-US',
   analytics: {

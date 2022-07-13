@@ -1,5 +1,5 @@
 import Link from './Link';
-import siteMetadata, { github, twitter } from '@/data/siteMetadata';
+import siteMetadata, { github, linkedin } from '@/data/siteMetadata';
 
 const ExternalLink = ({ href, children }) => (
   <a
@@ -26,7 +26,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href={twitter}>Twitter</ExternalLink>
+          <ExternalLink href={linkedin}>LinkedIn</ExternalLink>
           <ExternalLink href={github}>GitHub</ExternalLink>
         </div>
         <div className="flex flex-col space-y-4">

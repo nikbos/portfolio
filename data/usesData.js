@@ -11,6 +11,18 @@ const usesData = [
     title: 'Philips 27"',
     description: '2560 x 1440 resolution',
   },
+  {
+    title: 'Kobo Libra 2',
+    description: 'eReader',
+  },
+  {
+    title: 'Keychron K3',
+    description: 'Gateron Brown',
+  },
+  {
+    title: 'Redragon Draconic',
+    description: 'Gateron Yellow',
+  },
 ];
 
 export default usesData;
