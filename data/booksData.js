@@ -1,21 +1,33 @@
 const booksData = [
   {
-    title: 'Book 1',
-    description: 'Simple weather app',
-    imgSrc: '',
-    href: 'https://github.com/nikbos/eReaderWeather',
+    title: 'Deep Work',
+    description: 'Cal Newport',
+    href: 'https://www.goodreads.com/book/show/25744928-deep-work',
   },
   {
-    title: 'Book 2',
-    description: 'Gallery app built with React',
-    imgSrc: '',
-    href: 'https://github.com/nikbos/reddit-battlestations',
+    title: 'Eloquent JavaScript',
+    description: 'Marijn Haverbeke',
+    href: 'https://eloquentjavascript.net/',
   },
   {
-    title: 'Book 3',
-    description: 'Gallery app built with React Native',
-    imgSrc: '',
-    href: 'https://github.com/nikbos/r_native_battlestations',
+    title: 'Pure React',
+    description: 'Dave Ceddia',
+    href: 'https://www.goodreads.com/book/show/36117745-pure-react',
+  },
+  {
+    title: 'Ultralearning',
+    description: 'Scott Young',
+    href: 'https://www.goodreads.com/en/book/show/44770129-ultralearning',
+  },
+  {
+    title: 'Effective TypeScript',
+    description: 'Dan Vanderkam',
+    href: 'https://effectivetypescript.com/',
+  },
+  {
+    title: 'Creative Selection',
+    description: 'Ken Kocienda',
+    href: 'Ken Kocienda',
   },
 ];
 
