@@ -18,7 +18,16 @@ export default function AuthorLayout({ children, frontMatter }) {
         <div className="items-start space-y-2  xl:gap-x-8 xl:space-y-0">
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">{children}</div>
         </div>
+        <p>
+          <Link
+            href={'/books'}
+            className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+          >
+            Books
+          </Link>{' '}
+        </p>
       </div>
     </>
   );
 }
+
