@@ -23,7 +23,7 @@ export default function AuthorLayout({ children, frontMatter }) {
         <p>
           <Link
             href={'/uses'}
-            className=" no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+            className=" no-underline hover:text-gray-400 dark:text-gray-100 hover:dark:text-gray-100"
           >
             Uses
           </Link>
@@ -31,7 +31,7 @@ export default function AuthorLayout({ children, frontMatter }) {
         <p>
           <Link
             href={'/books'}
-            className="no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+            className="no-underline hover:text-gray-400 dark:text-gray-100 hover:dark:text-gray-100"
           >
             Books
           </Link>
@@ -39,7 +39,7 @@ export default function AuthorLayout({ children, frontMatter }) {
         <p>
           <Link
             href={'/podcasts'}
-            className="no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
+            className="no-underline hover:text-gray-400 dark:text-gray-100 hover:dark:text-gray-100"
           >
             Podcasts
           </Link>
