@@ -19,7 +19,7 @@ export default function AuthorLayout({ children, frontMatter }) {
           <div className="pt-6 pb-6 prose dark:prose-dark max-w-none xl:col-span-2">{children}</div>
         </div>
       </div>
-      <div className="pb-6">
+      <div className="pb-6 space-y-2">
         <p>
           <Link
             href={'/uses'}

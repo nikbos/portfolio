@@ -3,7 +3,7 @@ import siteMetadata, { github, linkedin } from '@/data/siteMetadata';
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="text-gray-500 hover:text-slate-50 transition"
+    className="text-gray-500 hover:text-gray-400 transition"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -19,10 +19,10 @@ export default function Footer() {
       <div className="w-full justify-items-center max-w-2xl grid grid-cols-1 gap-4 pb-8 sm:grid-cols-3 ">
         <div className="flex flex-col space-y-4 ">
           <Link href="/">
-            <a className="text-gray-500 hover:text-slate-50">Home</a>
+            <a className="text-gray-500 hover:text-gray-400">Home</a>
           </Link>
           <Link href="/about">
-            <a className="text-gray-500 hover:text-slate-50">About</a>
+            <a className="text-gray-500 hover:text-gray-400">About</a>
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
@@ -31,10 +31,10 @@ export default function Footer() {
         </div>
         <div className="flex flex-col space-y-4">
           <Link href="/uses">
-            <a className="text-gray-500 hover:text-slate-50">Uses</a>
+            <a className="text-gray-500 hover:text-gray-400">Uses</a>
           </Link>
           <Link href="/blog">
-            <a className="text-gray-500 hover:text-slate-50">Blog</a>
+            <a className="text-gray-500 hover:text-gray-400">Blog</a>
           </Link>
         </div>
       </div>
